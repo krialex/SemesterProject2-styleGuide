@@ -3,14 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "sass src/styles/style.scss dist/styles/style.css"
+    "build": "sass src/styles/style.scss dist/styles/style.css",
+    "start": "live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "bootstrap": "^5.3.3"
+    "bootstrap": "^5.3.3",
+    "live-server": "^1.2.2"
   },
   "devDependencies": {
     "sass": "^1.80.3"

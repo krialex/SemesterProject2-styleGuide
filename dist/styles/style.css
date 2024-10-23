@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  margin-top: 20px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 27px;
+}
+
+h1 {
+  font-family: Amatic SC, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2, p {
+  font-family: Josefin Sans, sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.typeOf {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 650px;
+  width: 100%;
+}
+
+.show-stylings {
+  display: flex;
+  gap: 6px;
+}
+
+.color {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  color: #FFF;
+}
+
+.colorOne {
+  background-color: #3A5991;
+}
+
+.colorTwo {
+  background-color: #146E8F;
+}
+
+.backgroundColor {
+  background-color: #FAFBFF;
+  color: black;
+}
+
+.typeOf .login-button, .typeOf .newListingBtn {
+  background-color: #3A5991;
+  color: #FFF;
+}
+
+.typeOf .signin-button {
+  background-color: #146E8F;
+  color: #FFF;
+}
+
+.typeOf .newListingBtn {
+  padding: 7px 20px;
+}
+
+.big-btn {
+  width: 100%;
+  max-width: 400px;
+}
+
+.big-btn .newListingBtn {
+  width: 100%;
+  margin: 10px auto;
+  border: none;
+  border-radius: 8px;
+}
+
+.big-btn .newListingBtn:hover {
+  background-color: #2d4472;
+  box-shadow: 0 0 15px rgba(58, 89, 145, 0.9);
+  transform: scale(1.05);
+}
+
+.buttons {
+  position: relative;
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #3A5991;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  outline: none;
+  margin: 0 10px;
+}
+
+.buttons:hover {
+  box-shadow: 0 0 15px rgba(58, 89, 145, 0.9);
+  transform: scale(1.05);
+}
+
+.buttons:active {
+  transform: scale(0.98);
+}
+
+.buttons:hover::after {
+  content: "";
+  position: absolute;
+  color: #3A5991;
+  top: -6px;
+  left: -6px;
+  right: -6px;
+  bottom: -6px;
+  border-radius: 8px;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.buttons:hover::after {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */
