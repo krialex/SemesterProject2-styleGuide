@@ -96,7 +96,7 @@ p {
     transform: scale(1.05); 
 }
 
-.buttons {
+.typeOf .buttons {
     position: relative;
     display: inline-block;
     padding: 7px 20px;
@@ -111,17 +111,17 @@ p {
     margin: 0 10px;
   }
   
-  .buttons:hover {
+  .typeOf .buttons:hover {
     box-shadow: 0 0 15px rgba(58, 89, 145, 0.9);
     transform: scale(1.05);
   }
   
-  .buttons:active {
+  .typeOf .buttons:active {
     transform: scale(0.98);
   }
 
   
-.buttons:hover::after {
+  .typeOf .buttons:hover::after {
     content: '';
     position: absolute;
     color: #3A5991;
@@ -135,6 +135,6 @@ p {
     transition: opacity 0.3s ease-in-out;
   }
   
-  .buttons:hover::after {
+  .typeOf .buttons:hover::after {
     opacity: 1;
   }
