@@ -87,15 +87,12 @@ p {
 .big-btn .newListingBtn {
     width: 100%;
     margin: 10px auto;
+    border: none !important;
+    border-radius: 8px !important;
 }
 
-button .newListingBtn {
-    border: none;
-    border-radius: 8px;
-}
 
-.big-btn .newListingBtn:hover {
-    background-color: #2d4472; 
+.big-btn .newListingBtn:hover {    background-color: #2d4472; 
     box-shadow: 0 0 15px rgba(58, 89, 145, 0.9); 
     transform: scale(1.05); 
 }
