@@ -87,11 +87,8 @@ p {
 .big-btn .newListingBtn {
   width: 100%;
   margin: 10px auto;
-}
-
-button .newListingBtn {
-  border: none;
-  border-radius: 8px;
+  border: none !important;
+  border-radius: 8px !important;
 }
 
 .big-btn .newListingBtn:hover {
