@@ -70,13 +70,13 @@ p {
   color: #FFF;
 }
 
-.typeOf .newListingBtn {
-  padding: 7px 20px;
-}
-
 .typeOf .signin-button {
   background-color: #146E8F;
   color: #FFF;
+}
+
+.typeOf .newListingBtn {
+  padding: 7px 20px;
 }
 
 .big-btn {
@@ -87,6 +87,8 @@ p {
 .big-btn .newListingBtn {
   width: 100%;
   margin: 10px auto;
+  border: none;
+  border-radius: 8px;
 }
 
 .big-btn .newListingBtn:hover {
@@ -95,7 +97,7 @@ p {
   transform: scale(1.05);
 }
 
-.typeOf .buttons {
+.buttons {
   position: relative;
   display: inline-block;
   padding: 7px 20px;
@@ -110,16 +112,16 @@ p {
   margin: 0 10px;
 }
 
-.typeOf .buttons:hover {
+.buttons:hover {
   box-shadow: 0 0 15px rgba(58, 89, 145, 0.9);
   transform: scale(1.05);
 }
 
-.typeOf .buttons:active {
+.buttons:active {
   transform: scale(0.98);
 }
 
-.typeOf .buttons:hover::after {
+.buttons:hover::after {
   content: "";
   position: absolute;
   color: #3A5991;
@@ -133,7 +135,7 @@ p {
   transition: opacity 0.3s ease-in-out;
 }
 
-.typeOf .buttons:hover::after {
+.buttons:hover::after {
   opacity: 1;
 }
 
