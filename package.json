@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/ && cp style.css dist/ && cp -R node_modules/bootstrap/dist dist/bootstrap"
+    "build": "mkdir -p dist && cp index.html dist/ && cp dist/style.css dist/ && cp -R node_modules/bootstrap/dist dist/bootstrap"
   },
   "keywords": [],
   "author": "",
