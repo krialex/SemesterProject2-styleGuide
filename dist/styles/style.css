@@ -11967,9 +11967,10 @@ p {
   background-color: transparent !important;
 }
 
-/*.buttons:active {
+.buttons:active {
   transform: scale(0.98);
-} */
+}
+
 .buttons:hover::after {
   content: "";
   position: absolute;
@@ -11985,8 +11986,8 @@ p {
   background-color: rgba(58, 89, 145, 0.1);
 }
 
-/*.buttons:hover::after {
+.buttons:hover::after {
   opacity: 1 !important;
-}  */
+}
 
 /*# sourceMappingURL=style.css.map */
