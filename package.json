@@ -12,9 +12,9 @@
   "description": "",
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.0"
   },
   "devDependencies": {
-    "sass": "^1.80.3"
+    "sass": "^1.80.4"
   }
 }
