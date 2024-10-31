@@ -96,7 +96,6 @@ p {
   background-color: #2d4472 !important;
   box-shadow: 0 0 15px rgba(58, 89, 145, 0.9) !important;
   transform: scale(1.05) !important;
-  position: relative;
 }
 
 .buttons {
