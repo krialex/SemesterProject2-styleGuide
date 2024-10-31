@@ -84,7 +84,7 @@ p {
   max-width: 400px;
 }
 
-.typeOf .big-btn .newListingBtn {
+.big-btn .newListingBtn {
   width: 100%;
   margin: 10px auto;
   font-size: 1rem;
@@ -96,7 +96,6 @@ p {
   background-color: #2d4472 !important;
   box-shadow: 0 0 15px rgba(58, 89, 145, 0.9) !important;
   transform: scale(1.05) !important;
-  position: relative;
 }
 
 .buttons {
@@ -118,29 +117,30 @@ p {
   box-shadow: 0 0 15px rgba(58, 89, 145, 0.9);
   transform: scale(1.05);
   background-color: #FFF;
-  color: #3A5991;
+  color: black;
 }
 
 .buttons:active {
   transform: scale(0.98);
 }
 
-.buttons:hover::after {
-  content: "";
-  position: absolute;
-  color: #3A5991;
-  top: -6px;
-  left: -6px;
-  right: -6px;
-  bottom: -6px;
-  border-radius: 8px;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-}
+/* .buttons:hover::after {
+   content: '';
+   position: absolute;
+   color: #3A5991;
+   top: -6px;
+   left: -6px;
+   right: -6px;
+   bottom: -6px;
+   border-radius: 8px;
+   z-index: -1;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+ }
 
-.buttons:hover::after {
-  opacity: 1;
-}
+ .buttons:hover::after {
+   opacity: 1;
+ }
+ */
 
 /*# sourceMappingURL=style.css.map */
