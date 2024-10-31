@@ -90,7 +90,7 @@ p {
     max-width: 400px;
 }
 
-.typeOf .big-btn .newListingBtn {
+.big-btn .newListingBtn {
     width: 100%;
     margin: 10px auto;
     font-size: 1rem;
@@ -132,7 +132,7 @@ p {
     transform: scale(0.98);
   } 
 
-  .buttons:hover::after {
+ /* .buttons:hover::after {
     content: '';
     position: absolute;
     color: #3A5991;
@@ -149,4 +149,4 @@ p {
   .buttons:hover::after {
     opacity: 1;
   }
-  
+  */
