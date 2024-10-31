@@ -106,15 +106,15 @@ p {
     position: relative;
 }
 
-  .buttons {
+.buttons {
     position: relative;
     display: inline-block;
     padding: 7px 20px;
     font-size: 16px;
     color: #fff;
     background-color: #3A5991;
-    border: none !important;
-    border-radius: 8px !important;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
     transition: all 0.3s ease;
     outline: none;
@@ -124,8 +124,8 @@ p {
   .buttons:hover {
     box-shadow: 0 0 15px rgba(58, 89, 145, 0.9);
     transform: scale(1.05);
-    color: black !important;
-    background-color: transparent !important;
+    background-color: #FFF;
+    color: black;
   }
   
   .buttons:active {
@@ -142,11 +142,11 @@ p {
     bottom: -6px;
     border-radius: 8px;
     z-index: -1;
-    opacity: 1 !important;
+    opacity: 0;
     transition: opacity 0.3s ease-in-out;
-    background-color: rgba(58, 89, 145, 0.1);
   }
   
   .buttons:hover::after {
-    opacity: 1 !important;
-  }  
+    opacity: 1;
+  }
+  
