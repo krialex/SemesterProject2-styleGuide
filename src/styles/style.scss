@@ -18,10 +18,20 @@ body {
     gap: 27px;
 }
 
+body hr {
+    width: 90%;
+    color: #fbfbfb;
+}
+
 h1 {
    font-family: Amatic SC, sans-serif;
    font-weight: 400;
    font-style: normal;
+}
+
+h4 {
+   font-family: Amatic SC, sans-serif;
+   font-weight: 300;
 }
 
 h2, p {
